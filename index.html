@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Flashcard Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <h1>📚 Web Development Flashcard Quiz</h1>
+
+    <div class="flashcard">
+        <div id="question">Question will appear here</div>
+        <div id="answer" class="hidden">Answer will appear here</div>
+    </div>
+
+    <button id="showAnswerBtn">Show Answer</button>
+
+    <div class="navigation">
+        <button id="previousBtn">Previous</button>
+        <span id="cardNumber">1 / 10</span>
+        <button id="nextBtn">Next</button>
+    </div>
+
+    <div class="form-section">
+
+        <h2>Add / Edit Flashcard</h2>
+
+        <input
+            type="text"
+            id="questionInput"
+            placeholder="Enter question"
+        >
+
+        <input
+            type="text"
+            id="answerInput"
+            placeholder="Enter answer"
+        >
+
+        <button id="addBtn">Add Card</button>
+        <button id="updateBtn">Update Card</button>
+
+    </div>
+
+    <div class="manage-section">
+
+        <h2>Manage Flashcard</h2>
+
+        <button id="editBtn">Edit Current Card</button>
+        <button id="deleteBtn">Delete Current Card</button>
+
+    </div>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
